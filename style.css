@@ -35,11 +35,6 @@ body {
   font-family: "Varela Round", sans-serif;
   color: #637e76;
 }
-
-.artists {
-  color: #557c55;
-  font-family: "Varela Round", sans-serif;
-}
 .word-links {
   display: flex;
   justify-content: space-between;
