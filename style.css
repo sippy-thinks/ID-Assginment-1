@@ -1,9 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap");
+
+body {
+  background-color: #bbab8c;
+}
+
 #nav-bar {
-  border: 10px solid black;
+  border: 10px solid #fdf7e4;
   justify-content: space-between;
   display: flex;
   flex-direction: row;
   padding-left: 10px;
   padding-right: 20px;
-  position:sticky;
+  position: sticky;
+  font-size: 20px;
+  margin: -10px;
+}
+
+#aboutus {
+  justify-content: end;
+  font-family: "Varela Round", sans-serif;
+  color: #637e76;
+}
+#album {
+  padding-left: 15px;
+  color: #637e76;
+  font-family: "Varela Round", sans-serif;
+}
+
+#location {
+  padding-left: 15px;
+  font-family: "Varela Round", sans-serif;
+  color: #637e76;
+}
+
+.artists {
+  color: #557c55;
+  font-family: "Varela Round", sans-serif;
+}
+.word-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-box {
+  display: flex;
+  height: 5px;
+}
+
+.title {
+  text-align: center;
+  font-family: "Caveat", sans-serif;
+  font-size: 35px;
 }
