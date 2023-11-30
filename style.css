@@ -1,0 +1,9 @@
+#nav-bar {
+  border: 10px solid black;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 20px;
+  position:sticky;
+}
