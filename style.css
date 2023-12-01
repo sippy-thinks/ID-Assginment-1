@@ -52,7 +52,7 @@ body {
 }
 
 .FAQ{
-  font-size: 20px;
+  font-size: 27px;
 }
 
 
@@ -73,17 +73,25 @@ flex-direction:column;
 padding-right: 10px;
 }
 .references{
-  margin-bottom:auto;
+  position:absolute;
+  padding-left: 30px;
+  border: red solid 2px;
   height: auto;
   background-color:#AEC3AE;
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  padding-bottom: 30px;
   padding-right:10px;
+  margin: auto;
 }
 .refer{
  
   font-size: 18px;
   color:#113946;
+}
+.promoter{
+  border: 2px red solid;
+  display: flex;
+  flex-direction:initial;
+   justify-content: space-evenly;
 }
