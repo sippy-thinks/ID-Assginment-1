@@ -2,32 +2,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 
-@media screen and (min-width: 576px) {
-  [class="artist-id"] {
-    width: 100%;
+@media only screen and (max-width: 600px) {
+  #nav-bar {
+    height: 10%;
+    border: 10px solid #fdf7e4;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 5%;
   }
-  [class="title"] {
-    font-size: 15px;
+
+  body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: "Indie Flower", sans-serif;
+    background-color: #bbab8c;
+    flex-wrap: wrap;
+    width: auto;
   }
 }
 
-@media (min-width: 768px) {
-  [class="artist-id"] {
-    width: 100%;
+@media only screen and (max-width: 768px) {
+  body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: "Indie Flower", sans-serif;
+    background-color: #bbab8c;
+    flex-wrap: wrap;
+    width: auto;
   }
-  [class="title"] {
-    font-size: 15px;
-  }
-}
 
-@media (min-width: 992px) {
-  [class="artist-id"] {
-    width: 100%;
-  }
-}
-@media (min-width: 1200px) {
-  [class="artist-id"] {
-    width: 100%;
+  #nav-bar {
+    border: 10px solid #fdf7e4;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20%;
   }
 }
 
@@ -36,11 +50,10 @@ body {
   overflow-x: hidden;
   font-family: "Indie Flower", sans-serif;
   background-color: #bbab8c;
-  flex-wrap:wrap;
- 
+  flex-wrap: wrap;
 }
 
-.artist{
+.artist {
   padding-right: 20px;
 }
 
@@ -103,7 +116,6 @@ body {
   display: grid;
   flex-direction: column;
   padding-left: 10px;
-  
 }
 .references {
   margin-top: auto;
@@ -121,17 +133,16 @@ body {
   font-size: 18px;
   color: #113946;
   padding-right: 40px;
-
 }
 .promoter {
   display: flex;
-  
+
   justify-content: space-evenly;
 }
 .places {
   margin: 0%;
   padding-bottom: px;
-  height:100%;
+  height: 100%;
   padding-left: 20px;
   width: 50%;
   display: flex;
@@ -140,17 +151,38 @@ body {
   font-size: 20px;
 }
 
-.emcee{
+.emcee {
   height: 10%;
   margin-right: 50px;
   margin-bottom: 60%;
-  margin-top:-80%;
+  margin-top: -80%;
   margin-left: auto;
   align-content: flex-start;
   text-align: center;
   align-items: center;
   flex-direction: column;
-  display:flex;
+  display: flex;
   padding-left: 20px;
   width: 20%;
+}
+.album-cover {
+  padding: 1.5rem;
+  flex-direction: row;
+  display: flex;
+  font-size: 20px;
+  /* border: solid greenyellow 3px; */
+}
+
+/* album image */
+.album-cover img {
+  border: solid black 5px;
+}
+
+/* album text */
+.album-cover p {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 1.5rem;
+  
 }
