@@ -90,7 +90,6 @@ padding-right: 10px;
   color:#113946;
 }
 .promoter{
-  border: 2px red solid;
   display: flex;
   flex-direction:initial;
    justify-content: space-evenly;
