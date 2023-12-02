@@ -198,6 +198,7 @@ body {
   background-color: #9eb8d9;
 }
 #songs {
+  padding-left: 20px;
   text-decoration: underline;
 }
 .cow {
@@ -227,6 +228,7 @@ body {
   justify-content: space-around;
 }
 #members {
+
   padding-left: 10px;
 }
 
